@@ -22,3 +22,33 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+ul {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.content-item {
+  padding: 0.8rem;
+}
+
+.header-logo {
+  display: flex;
+  padding-right: 3.1rem;
+}
+
+.content-left {
+  justify-content: flex-start;
+}
+
+.content-right {
+  justify-content: flex-end;
+  padding-right: 3.8rem;
+}
