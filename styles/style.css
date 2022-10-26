@@ -52,3 +52,9 @@ ul {
   justify-content: flex-end;
   padding-right: 3.8rem;
 }
+
+.menu-drop-down {
+  display: none;
+  position: absolute;
+  margin-top: 10rem;
+}
