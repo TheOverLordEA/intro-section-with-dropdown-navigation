@@ -42,6 +42,10 @@ ul {
   padding: 0.8rem;
 }
 
+.content-item:hover > a > span {
+  font-weight: 800;
+}
+
 .header-logo {
   display: flex;
   padding-right: 3.1rem;
@@ -65,7 +69,7 @@ ul {
   justify-content: flex-start;
   min-width: 150px;
   padding-left: 0;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   margin-right: 1.5rem;
 }
 
