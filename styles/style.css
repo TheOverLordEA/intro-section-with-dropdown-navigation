@@ -81,7 +81,7 @@ ul {
   cursor: pointer;
 }
 
-.content-item:hover .menu-drop-down {
+.content-item:hover .menu-drop-down:hover {
   display: flex;
   cursor: pointer;
 }
