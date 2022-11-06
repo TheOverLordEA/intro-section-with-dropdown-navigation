@@ -7,8 +7,9 @@
 /* BASE STYLES
 /*******************************************/
 
-/* body {
-} */
+body {
+  background: hsl(0, 0%, 98%);
+}
 
 /******************************************
 /* LAYOUT
@@ -25,7 +26,8 @@ footer {
 
 ul {
   display: flex;
-
+  color: hsl(0, 0%, 41%);
+  font-size: 18px;
   align-items: center;
   justify-content: center;
 }
@@ -38,12 +40,19 @@ ul {
 
 .content-item {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
   padding: 0.8rem;
 }
 
-.content-item:hover > a > span {
-  font-weight: 800;
+.content-item > img {
+  margin-left: 0.5rem;
+}
+
+.content-item:hover > span > a {
+  font-weight: 700;
+
+  color: hsl(0, 0%, 8%);
 }
 
 .header-logo {
@@ -60,28 +69,58 @@ ul {
   padding-right: 3.8rem;
 }
 
+.content-right > span:hover,
+button {
+  color: hsl(0, 0%, 8%);
+
+  cursor: pointer;
+}
+
+.content-right > button {
+  padding: 0.3rem 0.8rem;
+
+  border: 2.5px solid hsl(0, 0%, 8%);
+
+  background: hsl(0, 0%, 98%);
+  border-radius: 8px;
+}
+
 .menu-drop-down {
   display: none;
-  position: absolute;
-  margin-top: 1rem;
-  list-style: none;
   flex-direction: column;
-  justify-content: flex-start;
+  position: absolute;
+  list-style: none;
   min-width: 150px;
-  padding-left: 0;
-  margin-top: 2.5rem;
+  padding: 1rem 0.5rem;
+  margin-top: 12rem;
   margin-right: 1.5rem;
+
+  background: white;
+  box-shadow: 1px 1px 1px;
+
+  border-radius: 5px;
+}
+
+.drop-down-item {
+  margin-top: 10rem;
 }
 
 .menu-item {
+  display: flex;
   padding: 0.3rem;
 }
-
-.content-item:hover {
+.menu-item > a {
   cursor: pointer;
 }
 
-.content-item:hover .menu-drop-down:hover {
+.menu-item > a > img {
+  max-width: 15px;
+}
+
+.menu-item > a > span {
+  margin-left: 1rem;
+}
+
+.content-item:hover > .menu-drop-down {
   display: flex;
-  cursor: pointer;
 }
