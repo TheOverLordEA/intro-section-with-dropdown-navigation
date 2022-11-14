@@ -124,3 +124,23 @@ button {
 .content-item:hover > .menu-drop-down {
   display: flex;
 }
+
+/* CSS rules for main container */
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+main > section {
+  min-height: 500px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
