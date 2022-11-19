@@ -221,6 +221,7 @@ main > section {
 
   .nav-content > .header-logo {
     display: block;
+    padding-left: 0;
   }
 
   .wrap-left > p {
