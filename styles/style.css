@@ -11,6 +11,8 @@
 
 body {
   background: hsl(0, 0%, 98%);
+
+  height: 100vh;
 }
 
 /******************************************
@@ -147,6 +149,7 @@ button {
 main {
   display: flex;
   flex-direction: row;
+  height: 80%;
 }
 
 main > section {
@@ -198,14 +201,50 @@ main > section {
 }
 
 .right-content > img {
-  max-width: 80%;
-  max-height: 65%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   main {
     flex-direction: column;
+  }
+  .content-item {
+    display: none;
+  }
+
+  .wrap-left {
+    max-width: 100%;
+    padding: 3rem;
+  }
+
+  .nav-content > .header-logo {
+    display: block;
+  }
+
+  .wrap-left > p {
+    max-width: 100%;
+  }
+
+  .wrap-left > h1 {
+    font-size: 4.1rem;
+  }
+
+  .wrap-left > button {
+    padding: 1rem;
+  }
+
+  main > .section-left-item {
+    margin: 2rem;
+  }
+
+  .left-bottom-wrap {
+    flex-direction: column;
+  }
+  .left-bottom-wrap > img {
+    min-width: 80%;
+    padding: 1rem;
   }
 }
 
