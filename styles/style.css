@@ -76,6 +76,10 @@ ul {
   padding-right: 3.8rem;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .content-right > span:hover,
 button {
   color: hsl(0, 0%, 8%);
@@ -246,6 +250,10 @@ main > section {
   .left-bottom-wrap > img {
     min-width: 80%;
     padding: 1rem;
+  }
+
+  .burger-menu {
+    display: block;
   }
 }
 
