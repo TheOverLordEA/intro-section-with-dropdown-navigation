@@ -49,7 +49,7 @@ ul {
   justify-content: flex-end;
   padding: 0.8rem;
 
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .content-item > img {
@@ -78,6 +78,10 @@ ul {
 
 .burger-menu {
   display: none;
+}
+
+.nav-collapsed {
+  display: flex;
 }
 
 .content-right > span:hover,
@@ -187,7 +191,7 @@ main > section {
   line-height: 1.5rem;
 
   font-family: var(--font-epilogue);
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .left-bottom-wrap {
@@ -278,6 +282,18 @@ main > section {
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   main {
     flex-direction: column;
+  }
+
+  nav {
+    min-width: 100%;
+  }
+
+  .content-right {
+    padding-right: 1.8rem;
+  }
+
+  ul {
+    align-items: flex-start;
   }
 }
 
