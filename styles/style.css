@@ -81,7 +81,12 @@ ul {
 }
 
 .nav-collapsed {
-  display: flex;
+  display: none;
+  background: white;
+  min-width: 51%;
+
+  position: absolute;
+  min-height: 100vh;
 }
 
 .content-right > span:hover,
