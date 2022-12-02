@@ -82,9 +82,9 @@ ul {
 
 .nav-collapsed {
   display: none;
-  background: white;
-  min-width: 51%;
-
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  min-width: 50%;
   position: absolute;
   min-height: 100vh;
 }
