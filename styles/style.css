@@ -85,7 +85,11 @@ ul {
   flex-direction: column;
   background: rgb(255, 255, 255);
   min-width: 50%;
-  position: absolute;
+  top: 0;
+  right: 0;
+  position: fixed;
+  z-index: 1;
+
   min-height: 100vh;
 }
 
