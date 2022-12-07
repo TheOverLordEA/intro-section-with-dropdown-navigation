@@ -81,16 +81,16 @@ ul {
 }
 
 .nav-collapsed {
+  height: 100vh;
   display: none;
   flex-direction: column;
   background: rgb(255, 255, 255);
-  min-width: 58%;
+  width: 0;
   top: 0;
   right: 0;
   position: fixed;
   z-index: 1;
-  transition: 5s;
-  min-height: 100vh;
+  transition: 0.5s;
 }
 
 .content-right > span:hover,
@@ -102,7 +102,7 @@ button {
 
 .wrapper-nav-close {
   display: flex;
-
+  transition: 1s;
   justify-content: flex-end;
 }
 

@@ -7,7 +7,7 @@ function mobileMenu() {
 
 function closeMenu() {
   document.querySelector(".nav-collapsed").style.display = "none";
-
+  document.querySelector(".nav-collapsed").style.width = "0";
   document.querySelector("body").style.background = "white";
 }
 
