@@ -84,12 +84,12 @@ ul {
   display: none;
   flex-direction: column;
   background: rgb(255, 255, 255);
-  min-width: 50%;
+  min-width: 58%;
   top: 0;
   right: 0;
   position: fixed;
   z-index: 1;
-
+  transition: 5s;
   min-height: 100vh;
 }
 
@@ -98,6 +98,32 @@ button {
   color: hsl(0, 0%, 8%);
 
   cursor: pointer;
+}
+
+.wrapper-nav-close {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.mobile-menu > li {
+  padding: 1rem;
+}
+
+.nav-close {
+  background: transparent;
+  border: none;
+
+  padding: 1rem;
+
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .input {

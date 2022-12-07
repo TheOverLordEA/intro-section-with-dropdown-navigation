@@ -1,11 +1,13 @@
 function mobileMenu() {
-  document.querySelector(".burger-menu").style.display = "none";
   document.querySelector(".nav-collapsed").style.display = "flex";
+
+  document.querySelector(".nav-collapsed").style.width = "58%";
   document.querySelector("body").style.background = "blue";
 }
 
 function closeMenu() {
   document.querySelector(".nav-collapsed").style.display = "none";
+
   document.querySelector("body").style.background = "white";
 }
 
