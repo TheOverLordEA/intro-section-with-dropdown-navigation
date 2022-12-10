@@ -186,7 +186,12 @@ button {
 .menu-item:hover {
   color: hsl(0, 0%, 8%);
 }
-
+.burger-menu-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /* CSS rules for main container */
 
 main {
