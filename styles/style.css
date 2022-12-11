@@ -195,11 +195,19 @@ button {
   justify-content: center;
 }
 
-.burger-menu-button > button {
-  min-width: 50%;
+.menu-button {
+  min-width: 80%;
+  padding: 0.5rem;
+}
+.menu-loginBtn {
+  border: none;
+  background: white;
 }
 
-.burger-menu-button > button + button {
+.menu-registerBtn {
+  border: 1px solid black;
+  border-radius: 1rem;
+  background: white;
   margin-top: 1rem;
 }
 /* CSS rules for main container */
