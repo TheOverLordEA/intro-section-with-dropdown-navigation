@@ -110,6 +110,8 @@ button {
   display: flex;
   flex-direction: column;
   list-style: none;
+  font-weight: 800;
+  padding: 1rem;
 }
 
 .mobile-menu > li {
@@ -191,6 +193,14 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.burger-menu-button > button {
+  min-width: 50%;
+}
+
+.burger-menu-button > button + button {
+  margin-top: 1rem;
 }
 /* CSS rules for main container */
 
