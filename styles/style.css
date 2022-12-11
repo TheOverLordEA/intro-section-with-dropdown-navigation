@@ -102,7 +102,6 @@ button {
 
 .wrapper-nav-close {
   display: flex;
-  transition: 1s;
   justify-content: flex-end;
 }
 
@@ -121,6 +120,8 @@ button {
 .nav-close {
   background: transparent;
   border: none;
+
+  margin-right: 1.2rem;
 
   padding: 1rem;
 
@@ -209,6 +210,18 @@ button {
   border-radius: 1rem;
   background: white;
   margin-top: 1rem;
+}
+
+.container-mobile {
+  display: flex;
+  align-items: center;
+}
+.container-mobile > img {
+  margin-left: 1rem;
+}
+
+.container-company > img {
+  margin-left: 0.8rem;
 }
 /* CSS rules for main container */
 
