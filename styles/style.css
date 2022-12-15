@@ -285,9 +285,27 @@ main > section {
 }
 
 .wrap > ul {
-  display: flex;
-  padding: auto;
+  display: none;
+  align-items: flex-start;
+  padding: 0.5rem;
+  padding-top: 1rem;
+
   flex-direction: column;
+  list-style: none;
+}
+
+.wrap > ul > li {
+  padding: 0.5rem;
+}
+
+.wrap > ul > li > a {
+  text-decoration: none;
+
+  font-size: 18px;
+
+  font-family: var(--font-epilogue);
+  color: hsl(0, 0%, 41%);
+  padding: 0.8rem;
 }
 
 /* .wrap-right:nth-of-type(2) {

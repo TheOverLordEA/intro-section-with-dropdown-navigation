@@ -11,6 +11,10 @@ function closeMenu() {
   document.querySelector("body").style.background = "white";
 }
 
+function openMobileMenu() {
+  document.querySelector(".wrap").style.display = "flex";
+}
+
 document.querySelector(".burger-menu").addEventListener("click", mobileMenu);
 
 document.querySelector(".nav-close").addEventListener("click", closeMenu);
