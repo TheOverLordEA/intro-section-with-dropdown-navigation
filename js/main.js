@@ -12,9 +12,11 @@ function closeMenu() {
 }
 
 function openMobileMenu() {
-  document.querySelector(".wrap").style.display = "flex";
+  document.querySelector(".feature-menu").style.display = "flex";
 }
 
 document.querySelector(".burger-menu").addEventListener("click", mobileMenu);
 
 document.querySelector(".nav-close").addEventListener("click", closeMenu);
+
+document.querySelector(".drop-down").addEventListener("click", openMobileMenu);
