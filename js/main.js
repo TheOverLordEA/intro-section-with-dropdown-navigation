@@ -11,12 +11,20 @@ function closeMenu() {
   document.querySelector("body").style.background = "white";
 }
 
-function openMobileMenu() {
-  document.querySelector(".feature-menu").style.display = "flex";
+function toggleE() {
+  const display = document.querySelector(".display-feature");
+  display.classList.toggle("feature-menu");
+}
+
+function toggleG() {
+  const display = document.querySelector(".display-company");
+  display.classList.toggle("feature-menu");
 }
 
 document.querySelector(".burger-menu").addEventListener("click", mobileMenu);
 
 document.querySelector(".nav-close").addEventListener("click", closeMenu);
 
-document.querySelector(".drop-down").addEventListener("click", openMobileMenu);
+document.querySelector(".container-mobile").addEventListener("click", toggleE);
+
+document.querySelector(".container-company").addEventListener("click", toggleG);

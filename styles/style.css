@@ -284,8 +284,15 @@ main > section {
   max-height: 100%;
 }
 
-.wrap > ul {
+.display-feature {
   display: none;
+}
+.display-company {
+  display: none;
+}
+
+.wrap > .feature-menu {
+  display: flex;
   align-items: flex-start;
   padding: 0.5rem;
   padding-top: 1rem;
