@@ -2,7 +2,7 @@ function mobileMenu() {
   document.querySelector(".nav-collapsed").style.display = "flex";
 
   document.querySelector(".nav-collapsed").style.width = "58%";
-  document.querySelector("body").style.background = "blue";
+  document.querySelector("body").style.background = "gray";
 }
 
 function closeMenu() {
