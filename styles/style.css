@@ -362,11 +362,10 @@ main > section {
   }
 
   .left-bottom-wrap {
-    flex-direction: column;
+    flex-direction: row;
   }
   .left-bottom-wrap > img {
-    min-width: 80%;
-    padding: 1rem;
+    padding: 0.1rem;
   }
 
   .burger-menu {

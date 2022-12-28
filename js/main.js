@@ -25,13 +25,18 @@ function changeImage() {
   const displayWidth = window.innerWidth;
   const imageDOM = document.querySelector(".image-hero");
 
+  if (displayWidth > 500) {
+    imageDOM.src =
+      "/intro-section-with-dropdown-navigation-main/images/image-hero-desktop.png";
+  }
+
   if (displayWidth < 500) {
     imageDOM.src =
       "/intro-section-with-dropdown-navigation-main/images/image-hero-mobile.png";
   }
 }
 
-changeImage();
+window.addEventListener("resize", changeImage);
 
 document.querySelector(".burger-menu").addEventListener("click", mobileMenu);
 
