@@ -333,7 +333,15 @@ main > section {
 
   .wrap-left {
     max-width: 100%;
-    padding: 3rem;
+    padding: 1rem;
+  }
+
+  .wrap-left > h1 {
+    font-size: 2rem;
+  }
+
+  .wrap-left > .section-left-item {
+    margin: 1rem;
   }
 
   .nav-content > .header-logo {
@@ -343,10 +351,6 @@ main > section {
 
   .wrap-left > p {
     max-width: 100%;
-  }
-
-  .wrap-left > h1 {
-    font-size: 4.1rem;
   }
 
   .wrap-left > button {
@@ -374,6 +378,7 @@ main > section {
   }
 
   .right-content {
+    max-height: 50%;
     order: -1;
   }
 }

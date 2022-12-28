@@ -21,6 +21,18 @@ function toggleG() {
   display.classList.toggle("feature-menu");
 }
 
+function changeImage() {
+  const displayWidth = window.innerWidth;
+  const imageDOM = document.querySelector(".image-hero");
+
+  if (displayWidth < 500) {
+    imageDOM.src =
+      "/intro-section-with-dropdown-navigation-main/images/image-hero-mobile.png";
+  }
+}
+
+changeImage();
+
 document.querySelector(".burger-menu").addEventListener("click", mobileMenu);
 
 document.querySelector(".nav-close").addEventListener("click", closeMenu);
