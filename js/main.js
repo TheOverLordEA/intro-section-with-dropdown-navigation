@@ -11,12 +11,12 @@ function closeMenu() {
   document.querySelector("body").style.background = "white";
 }
 
-function toggleE() {
+function toggleFeature() {
   const display = document.querySelector(".display-feature");
   display.classList.toggle("feature-menu");
 }
 
-function toggleG() {
+function toggleCompany() {
   const display = document.querySelector(".display-company");
   display.classList.toggle("feature-menu");
 }
@@ -42,6 +42,10 @@ document.querySelector(".burger-menu").addEventListener("click", mobileMenu);
 
 document.querySelector(".nav-close").addEventListener("click", closeMenu);
 
-document.querySelector(".container-mobile").addEventListener("click", toggleE);
+document
+  .querySelector(".container-mobile")
+  .addEventListener("click", toggleFeature);
 
-document.querySelector(".container-company").addEventListener("click", toggleG);
+document
+  .querySelector(".container-company")
+  .addEventListener("click", toggleCompany);
