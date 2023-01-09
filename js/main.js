@@ -27,12 +27,12 @@ function changeImage() {
 
   if (displayWidth > 500) {
     imageDOM.src =
-      "/intro-section-with-dropdown-navigation-main/images/image-hero-desktop.png";
+      "intro-section-with-dropdown-navigation-main/images/image-hero-desktop.png";
   }
 
   if (displayWidth < 500) {
     imageDOM.src =
-      "/intro-section-with-dropdown-navigation-main/images/image-hero-mobile.png";
+      "intro-section-with-dropdown-navigation-main/images/image-hero-mobile.png";
   }
 }
 
